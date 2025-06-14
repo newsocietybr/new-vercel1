@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Check, Gift, Star } from 'lucide-react';
 
@@ -17,7 +16,7 @@ const Offer = () => {
               💣 CopyHack™: O gerador de ofertas irresistíveis, copies milionárias
             </h2>
             <p className="text-gray-300 text-lg">
-              O sistema que cria páginas, e-mails e VSLs em minutos usando estratégias de Bencivenga, Gary Halbert, Todd Brown, Robert Collier e outros.
+              O sistema que cria páginas, e-mails e VSLs em minutos usando estratégias dos maiores especialistas em Copywriting, Criação de Ofertas e Construção de Funis.
             </p>
           </div>
 

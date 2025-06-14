@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Play, Clock, Users, CheckCircle, Brain, Target, Zap } from 'lucide-react';
 
@@ -6,14 +5,14 @@ const Courses = () => {
   const features = [
     {
       title: "Diagnóstico guiado por IA",
-      description: "baseado em Alex Hormozi, Russell Brunson, Iman Gadzhi e outros",
+      description: "baseado nos frameworks dos maiores especialistas em Copywriting, Criação de Ofertas e Construção de Funis",
       icon: Brain,
       category: "DIAGNÓSTICO",
       categoryColor: "from-blue-500 to-cyan-500"
     },
     {
       title: "FunnelHacker + CopyHack™",
-      description: "Cria funis com templates validados e páginas, e-mails e VSLs em minutos - Bencivenga, Gary Halbert, Todd Brown, Robert Collier e outros",
+      description: "Cria funis com templates validados e páginas, e-mails e VSLs em minutos - baseado nos frameworks dos maiores especialistas",
       icon: Target,
       category: "AUTOMAÇÃO",
       categoryColor: "from-blue-600 to-blue-800"

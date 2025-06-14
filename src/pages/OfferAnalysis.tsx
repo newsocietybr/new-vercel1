@@ -33,11 +33,11 @@ const OfferAnalysis = () => {
   ];
 
   const analysisFrameworks = [
-    '$100M Offers (Hormozi)',
-    'Breakthrough Advertising (Schwartz)',
-    'Magnetic Marketing (Kennedy)',
-    'One to Many (Fladlien)',
-    'DotCom Secrets (Brunson)'
+    'Frameworks de Copywriting',
+    'Frameworks de Criação de Ofertas',
+    'Frameworks de Construção de Funis',
+    'Frameworks de Marketing de Resposta Direta',
+    'Frameworks de Vendas Online'
   ];
 
   const funnelTypes = [
@@ -76,35 +76,35 @@ const OfferAnalysis = () => {
       id: 'sales-page',
       name: 'Página de Vendas',
       description: 'Estrutura com seções, headlines, storytelling, stack, garantias, CTA',
-      framework: 'DotCom Secrets, Halbert, Collier, Sugarman',
+      framework: 'Frameworks dos maiores especialistas em Copywriting',
       icon: <FileText className="w-6 h-6" />
     },
     {
       id: 'vsl',
       name: 'VSL (Video Sales Letter)',
-      description: 'Script estilo Fladlien ou Brunson (dor, promessa, mecanismo, CTA)',
-      framework: 'One to Many, Breakthrough Advertising, Expert Secrets',
+      description: 'Script com dor, promessa, mecanismo e CTA',
+      framework: 'Frameworks dos maiores especialistas em Vendas',
       icon: <Video className="w-6 h-6" />
     },
     {
       id: 'email-sequence',
       name: 'Sequência de E-mails',
       description: '3 a 7 e-mails (aquecimento, antecipação, objeções, escassez, reabertura)',
-      framework: 'E5 Method, Kennedy, Hormozi, Bencivenga',
+      framework: 'Frameworks dos maiores especialistas em Email Marketing',
       icon: <Mail className="w-6 h-6" />
     },
     {
       id: 'ad-copy',
       name: 'Anúncio (Ad Copy)',
       description: 'Headline + ângulo emocional + promessa curta + CTA',
-      framework: 'Cashvertising, Caples, Adweek Handbook, Halbert',
+      framework: 'Frameworks dos maiores especialistas em Copy',
       icon: <Megaphone className="w-6 h-6" />
     },
     {
       id: 'pitch-pdf',
       name: 'MiniPDF Pitch',
       description: 'Documento com Big Idea, promessa, mecanismo e CTA em 1 página',
-      framework: 'The Irresistible Offer, Hormozi, Kennedy',
+      framework: 'Frameworks dos maiores especialistas em Vendas',
       icon: <FileImage className="w-6 h-6" />
     }
   ];

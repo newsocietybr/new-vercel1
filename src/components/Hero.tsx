@@ -43,7 +43,7 @@ const Hero = () => {
                 🎯 Diagnóstico Estratégico por IA
               </h3>
               <p className="text-gray-300">
-                Um diagnóstico inteligente que entende onde você está e define o melhor plano de ação, com base em frameworks de especialistas como Hormozi, Russell Brunson, Gary Halbert, Dan Kennedy e Todd Brown.
+                Um diagnóstico inteligente que entende onde você está e define o melhor plano de ação, com base nos frameworks dos maiores especialistas em Copywriting, Criação de Ofertas e Construção de Funis.
               </p>
             </div>
 
@@ -62,24 +62,6 @@ const Hero = () => {
               </h3>
               <p className="text-gray-300">
                 Criação de funis, páginas, e-mails e VSLs com templates validados e inteligência artificial treinada com milhares de campanhas reais.
-              </p>
-            </div>
-
-            <div className="glass-card p-6">
-              <h3 className="text-xl font-bold text-white mb-3 flex items-center">
-                📊 Simulador Financeiro
-              </h3>
-              <p className="text-gray-300">
-                Projeção de métricas como CAC, ROI, LTV e ticket médio. Decida com dados, não com achismos.
-              </p>
-            </div>
-
-            <div className="glass-card p-6">
-              <h3 className="text-xl font-bold text-white mb-3 flex items-center">
-                📈 Painel de Resultados com IA
-              </h3>
-              <p className="text-gray-300">
-                Análise contínua do seu progresso com sugestões automáticas de melhoria, baseadas no seu desempenho real.
               </p>
             </div>
 

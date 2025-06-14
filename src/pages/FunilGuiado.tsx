@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, ArrowLeft, CheckCircle, Target, Brain, Compass, Lightbulb, Gift, Shield, Zap, Package, Rocket } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -43,7 +42,7 @@ const FunilGuiado = () => {
           const formattedSteps = funilData.map(step => ({
             id: step.step_id,
             title: step.title,
-            subtitle: step.subtitle,
+            subtitle: step.step_id === 'copiloto' || step.step_id === 'melhores-mundo' ? 'Se você tivesse ao seu lado um copiloto digital — com inteligência e repertório dos maiores especialistas em Copywriting, Criação de Ofertas e Construção de Funis' : (step.step_id === 'como-seria' ? 'Agora imagine isso: Você entra em um sistema guiado, onde cada etapa do seu negócio — oferta, copy, página, tráfego e funil — é criada passo a passo ao seu lado.' : step.subtitle),
             icon: getIconForStep(step.step_id),
             color: getColorForStep(step.step_id),
             type: step.type,

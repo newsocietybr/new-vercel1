@@ -54,8 +54,8 @@ const SalesPageBuilder = () => {
             <div className="glass-card p-6">
               <h3 className="text-white font-semibold mb-4">Fórmulas para inspirar:</h3>
               <div className="space-y-3 text-gray-300 text-sm">
-                <p><strong>Fórmula 1 (Brunson):</strong> [Resultado] em [Tempo] sem [Objeto de repulsa]</p>
-                <p><strong>Fórmula 2 (Hormozi):</strong> Ajudo [avatar] a conseguir [resultado] em [prazo] sem [sacrifício]</p>
+                <p><strong>Fórmula 1:</strong> [Resultado] em [Tempo] sem [Objeto de repulsa]</p>
+                <p><strong>Fórmula 2:</strong> Ajudo [avatar] a conseguir [resultado] em [prazo] sem [sacrifício]</p>
                 <p><strong>Exemplo:</strong> "Fature R$10k como expert em 21 dias — sem aparecer e sem gravar conteúdo."</p>
               </div>
             </div>

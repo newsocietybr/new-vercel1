@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Play, Clock, MoreHorizontal, Brain, Target, Zap, TrendingUp } from 'lucide-react';
 
@@ -8,7 +7,7 @@ const ContinueWatching = () => {
       title: "Diagnóstico de Negócio",
       category: "IA Estratégica",
       icon: Brain,
-      description: "Análise completa baseada em Hormozi e Russell Brunson",
+      description: "Análise completa baseada nos frameworks dos maiores especialistas",
       thumbnail: "photo-1581090464777-f3220bbe1b8b"
     },
     {
@@ -24,13 +23,6 @@ const ContinueWatching = () => {
       icon: Zap,
       description: "Gerador de copies milionárias em minutos",
       thumbnail: "photo-1518770660439-4636190af475"
-    },
-    {
-      title: "Simulador Financeiro",
-      category: "Análise de ROI",
-      icon: TrendingUp,
-      description: "CAC, LTV, ROI calculados automaticamente",
-      thumbnail: "photo-1486312338219-ce68d2c6f44d"
     }
   ];
 
